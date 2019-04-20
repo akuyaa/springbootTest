@@ -26,11 +26,11 @@ public class AccountController {
         System.out.println("保存成功");
     }
 
-    @RequestMapping("save/{id}/account")
-    public void saveByRest(@PathVariable Integer id){
-
-        System.out.println("保存成功");
-    }
+//    @RequestMapping("save/{id}/account")
+//    public void saveByRest(@PathVariable Integer id){
+//
+//        System.out.println("保存成功");
+//    }
 
     @RequestMapping(value = "go",method = POST)
     public void save1(@RequestParam Integer id,@RequestParam String name){
