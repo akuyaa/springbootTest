@@ -16,6 +16,7 @@ public class HelloController {
 
     @RequestMapping("helaa")
     public String aaa(){
+        System.out.println("asdada");
         return "hello springboot!";
 
     }
