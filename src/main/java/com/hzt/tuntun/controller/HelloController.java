@@ -13,4 +13,11 @@ public class HelloController {
         return "hello springboot!";
 
     }
+
+    @RequestMapping("helaa")
+    public String aaa(){
+        return "hello springboot!";
+
+    }
+
 }
